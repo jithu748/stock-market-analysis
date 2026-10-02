@@ -1,0 +1,48 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Test, coverage, and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# VS Code local state
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs and local database exports
+*.log
+*.sql.gz
+*.dump
+*.bak
